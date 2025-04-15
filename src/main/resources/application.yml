@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/emailbatch
+    username: ${EMAIL_BATCH_DB_USER}
+    password: ${EMAIL_BATCH_DB_PASS}
